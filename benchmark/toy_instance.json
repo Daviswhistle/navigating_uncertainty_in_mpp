@@ -1,0 +1,16 @@
+{
+  "ports": 3,
+  "bays": [
+    {"id": 1, "capacity_teu": 50, "capacity_weight": 100},
+    {"id": 2, "capacity_teu": 50, "capacity_weight": 100},
+    {"id": 3, "capacity_teu": 50, "capacity_weight": 100}
+  ],
+  "containers": [
+    {"id": 1, "pol": 1, "pod": 3, "teu": 1, "weight": 10, "revenue": 100},
+    {"id": 2, "pol": 1, "pod": 2, "teu": 1, "weight": 12, "revenue": 120},
+    {"id": 3, "pol": 1, "pod": 3, "teu": 2, "weight": 18, "revenue": 150},
+    {"id": 4, "pol": 2, "pod": 3, "teu": 1, "weight": 8, "revenue": 90},
+    {"id": 5, "pol": 1, "pod": 2, "teu": 2, "weight": 20, "revenue": 160}
+  ],
+  "slots_per_bay": 25
+}
